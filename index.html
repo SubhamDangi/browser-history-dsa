@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Browser History System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h1>🌐 Browser History</h1>
+
+    <input type="text" id="urlInput" placeholder="Enter URL...">
+
+    <div class="buttons">
+        <button onclick="visit()">Visit</button>
+        <button onclick="goBack()">⬅ Back</button>
+        <button onclick="goForward()">➡ Forward</button>
+        <button onclick="showCurrent()">Current</button>
+        <button onclick="showHistory()">History</button>
+        <button onclick="clearHistory()">Clear</button>
+    </div>
+
+    <div id="history"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
